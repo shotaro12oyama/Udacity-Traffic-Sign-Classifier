@@ -31,8 +31,7 @@ The goals / steps of this project are the following:
 
 ####1. Provide a basic summary of the data set. In the code, the analysis should be done using python, numpy and/or pandas methods rather than hardcoding results manually.
 
-I used the pandas library to calculate summary statistics of the traffic
-signs data set:
+I used the numpy library to calculate summary statistics of the traffic signs data set:
 
 * The size of training set is 34,799
 * The size of the validation set is 4,410
@@ -42,7 +41,7 @@ signs data set:
 
 ####2. Include an exploratory visualization of the dataset.
 
-Here is an exploratory visualization of the data set. It is a bar chart showing how the data ...
+Here is an exploratory visualization of the data set. It is a bar chart showing how the data is distributed in each class.
 
 ![alt text][image1]
 
