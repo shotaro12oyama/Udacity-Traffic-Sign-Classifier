@@ -74,9 +74,11 @@ My final model consisted of the following layers:
 
 | Layer         		|     Description	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| Input         		| 32x32x3 RGB image   							| 
-| Convolution 3x3     	| 1x1 stride, same padding, outputs 32x32x64 	|
-| RELU					|												|
+| Input         		| 32x32x1 RGB image   							| 
+| Convolution     	| 1x1 stride, outputs 28x28x8 	|
+| RELU					|		
+| Convolution		| 1x1 stride, outputs 14x14x10	|
+| RELU					|										|
 | Max pooling	      	| 2x2 stride,  outputs 16x16x64 				|
 | Convolution 3x3	    | etc.      									|
 | Fully connected		| etc.        									|
