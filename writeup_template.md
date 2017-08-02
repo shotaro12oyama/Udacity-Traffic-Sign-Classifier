@@ -48,16 +48,16 @@ Here is an exploratory visualization of the data set. It is a bar chart showing 
 ###Design and Test a Model Architecture
 
 ####1. Describe how you preprocessed the image data. 
-
-As a first step, I decided to convert the images to grayscale because ...
+..
+As a first step, I decided to convert the images to grayscale because the color of the image doesn’t matter for traffic sign.
 
 Here is an example of a traffic sign image before and after grayscaling.
 
 ![alt text][image2]
 
-As a last step, I normalized the image data because ...
+As a last step, I normalized the image data because I need to arrange the input values as the similar level, which will affect to the entire learning rate of my network.
 
-I decided to generate additional data because ... 
+I decided to generate additional data because it is likely that I can get better result by considering the translation invariance.
 
 To add more data to the the data set, I used the following techniques because ... 
 
