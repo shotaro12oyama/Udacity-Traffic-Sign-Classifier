@@ -81,8 +81,8 @@ My final model consisted of the following layers:
 | RELU					|
 | Convolution		| 1x1 stride, outputs 10x10x24	|										|
 | Max pooling	      	| 2x2 stride, outputs 5x5x24	|  				|
-| Fully connected		| etc.        									|
-| Softmax				| etc.        									|
+| Fully connected		|         									|
+| Softmax				|      									|
  
 
 
