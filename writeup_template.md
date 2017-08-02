@@ -45,7 +45,7 @@ signs data set:
 * The size of training set is 34,799
 * The size of the validation set is 4,410
 * The size of test set is 12,630
-* The shape of a traffic sign image is 32 x 32, RGB
+* The shape of a traffic sign image is 32 x 32 x 3, RGB
 * The number of unique classes/labels in the data set is 43
 
 ####2. Include an exploratory visualization of the dataset.
