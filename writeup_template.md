@@ -59,7 +59,7 @@ As a last step, I normalized the image data because I need to arrange the input 
 
 I decided to generate additional data because it is likely that I can get better result by considering the translation invariance.
 
-To add more data to the the data set, I used the following techniques because ... 
+To add more data to the the data set, I used the following techniques because I need more variety of images for the same labels.
 
 Here is an example of an original image and an augmented image:
 
@@ -89,7 +89,7 @@ My final model consisted of the following layers:
 ####3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
 
 To train the model, I used an AdamOptimizer, though I started from GradientDescentOptimizer at first. AdamOptimizer was faster for learning and better result. 
-Also, I set epochs as 40, Batch_size as 128, and learning rate as 0.002, after trying several combinations.
+Also, I set epochs as 20, Batch_size as 128, and learning rate as 0.002, after trying several combinations.
 
 ####4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93.
 
