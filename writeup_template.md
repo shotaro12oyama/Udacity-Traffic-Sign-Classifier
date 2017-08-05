@@ -55,9 +55,9 @@ Here is an example of a traffic sign image before and after grayscaling.
 
 ![alt text][image2]
 
-As a last step, I normalized the image data because I need to arrange the input values as the similar level, which will affect to the entire learning rate of my network.
+As a last step, I normalized the image data by the function 0.1 + ((img - 0) * (0.9-0.1) / (255-0), because I need to arrange the input values as the similar level, which will affect to the entire learning rate of my network.
 
-I decided to generate additional data because it is likely that I can get better result by considering the translation invariance.
+I did not decide to generate additional data because it is likely that I can get better result by adding some dat which is tranformed considering the translation invariance, however, I tried  
 
 To add more data to the the data set, I used the following techniques because I need more variety of images for the same labels.
 
