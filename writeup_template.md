@@ -19,11 +19,11 @@ The goals / steps of this project are the following:
 [image1]: ./examples/visualization.jpg "Visualization"
 [image2]: ./examples/grayscale.jpg "Grayscaling"
 [image3]: ./examples/random_noise.jpg "Random Noise"
-[image4]: ./examples/placeholder.png "Traffic Sign 1"
-[image5]: ./examples/placeholder.png "Traffic Sign 2"
-[image6]: ./examples/placeholder.png "Traffic Sign 3"
-[image7]: ./examples/placeholder.png "Traffic Sign 4"
-[image8]: ./examples/placeholder.png "Traffic Sign 5"
+[image4]: ./examples/new33.jpg "Traffic Sign 1"
+[image5]: ./examples/new22.jpg "Traffic Sign 2"
+[image6]: ./examples/new25.jpg "Traffic Sign 3"
+[image7]: ./examples/new26.jpg "Traffic Sign 4"
+[image8]: ./examples/new27.jpg "Traffic Sign 5"
 
 
 ---
