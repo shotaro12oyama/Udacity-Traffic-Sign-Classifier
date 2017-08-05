@@ -94,9 +94,9 @@ Also, I set epochs as 20, Batch_size as 128, and learning rate as 0.002, after t
 ####4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93.
 
 My final model results were:
-* training set accuracy of 0.99
-* validation set accuracy of 0.94
-* test set accuracy of 0.93
+* training set accuracy of 0.997
+* validation set accuracy of 0.946
+* test set accuracy of 0.928
 
 If an iterative approach was chosen:
 * What was the first architecture that was tried and why was it chosen?
