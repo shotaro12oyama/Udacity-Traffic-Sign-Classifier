@@ -91,18 +91,13 @@ My final model results were:
 
 If an iterative approach was chosen:
 * At the beginning, I used Lenet-5 model.
+* After trying different parameters and training, I found that Validation accuracy can reach at most 90%, even though Training accuracy is around 99%. It looks overfitting. 
+* Then, I tried to make the depth of each convolution layer deeper. It got the validation accuracy to be improved, but still it was at most 92%, even though I make it deeper. 
+* Lastly, when I add additional convolution layer, the valudation accuracy got improved, resulted in more than 96%.
+* I also modified the parameters such as epoch, batch, and learning rate, for example, when I found that the number of training looked too short to train the model well, I increased the number of training (epoch). 
+* I think the important design choices was adding convolution layer, because the issue I faced was mainly overfitting. In other words, Lenet-5 does not have enough capacity for accomodating the complexity of german traffic signs data at this time.
+By adding more convolution layer, I think my model can express more complecated classification. At this time, fortunately the computing power for training was enough, but it may be likely that I need to consider additional approach such as dropout / max pooling if I faced what requires huge calculation. 
 
-* What were some problems with the initial architecture?
-
-* How was the architecture adjusted and why was it adjusted? 
-A high accuracy on the training set but low accuracy on the validation set indicates over fitting; a low accuracy on both sets indicates under fitting.
-
-* Which parameters were tuned? How were they adjusted and why?
-
-
-* What are some of the important design choices and why were they chosen? For example, why might a convolution layer work well with this problem? How might a dropout layer help with creating a successful model?
-
- 
 
 ###Test a Model on New Images
 
