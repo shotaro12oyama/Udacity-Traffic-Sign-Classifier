@@ -49,7 +49,7 @@ Here is an exploratory visualization of the data set. It is a bar chart showing 
 
 ####1. Describe how you preprocessed the image data. 
 
-As a first step, I decided to convert the images to grayscale by using inner product between the 3 color values on each pixel and (0.299, 0.587, 0.114because the color of the image doesn’t matter for traffic sign.
+As a first step, I decided to convert the images to grayscale by using inner product between the 3 color values on each pixel and (0.299, 0.587, 0.114) because the color of the image doesn’t seem to matter for traffic sign at this case.
 Here is an example of a traffic sign image before and after grayscaling.
 
 ![alt text][image2]
@@ -90,7 +90,7 @@ My final model results were:
 * test set accuracy of 0.938
 
 If an iterative approach was chosen:
-* What was the first architecture that was tried and why was it chosen?
+* At the beginning, I used Lenet-5 model.
 
 * What were some problems with the initial architecture?
 
