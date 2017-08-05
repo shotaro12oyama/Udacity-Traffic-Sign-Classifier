@@ -50,6 +50,7 @@ Here is an exploratory visualization of the data set. It is a bar chart showing 
 ####1. Describe how you preprocessed the image data. 
 
 As a first step, I decided to convert the images to grayscale by using inner product between the 3 color values on each pixel and (0.299, 0.587, 0.114) because the color of the image doesn’t seem to matter for traffic sign at this case.
+
 Here is an example of a traffic sign image before and after grayscaling.
 
 ![alt text][image2]
@@ -108,7 +109,9 @@ Here are five German traffic signs that I found on the web:
 ![alt text][image4] ![alt text][image5] ![alt text][image6] 
 ![alt text][image7] ![alt text][image8]
 
-The first image might be difficult to classify because ...
+The first and second images look easy to classify because there is the sign only in the picture with good contrast.
+The third to fifth are comparatively difficult because they include some noise, such as including backround image, masking and so on.
+
 It can be said that the Predictions uncertainty was nearly inexistent as is shown in the table above and graphs below. Looking at the Top-5 Prediction, it can be seeming that their probabilities were very high in all cases. Nonetheless, it is notable that the model mistakenly selected a “Turn left ahead” sign when a “Speed limit “30km/h” was given. This is a False Positive in the Confusion Matrix.
 
 
@@ -118,11 +121,11 @@ Here are the results of the prediction:
 
 | Image			        |     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| Turn right ahead      		| Stop sign   									| 
-| U-turn     			| U-turn 										|
-| Yield					| Yield											|
-| 100 km/h	      		| Bumpy Road					 				|
-| Slippery Road			| Slippery Road      							|
+| 33 Turn right ahead      		| 25 Road Work		  									| 
+| 22 Bumpy Road     			| 29 Bicycles crossing 										|
+| 28	Children crossing				| 28 Children crossing											|
+| 25	Road Work      		| 25 Road Work						 				|
+| 27	Pedestrians		| 27 Pedestrians      							|
 
 
 The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. This compares favorably to the accuracy on the test set of ...
