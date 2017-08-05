@@ -41,31 +41,22 @@ I used the numpy library to calculate summary statistics of the traffic signs da
 
 ####2. Include an exploratory visualization of the dataset.
 
-Here is an exploratory visualization of the data set. It is a bar chart showing how the data is distributed in each class.
+Here is an exploratory visualization of the data set. It is a bar chart showing how the data is distributed in each class. I could found that the testing data is distributed proportionally to the distribution of the training data set.
 
 ![alt text][image1]
 
 ###Design and Test a Model Architecture
 
 ####1. Describe how you preprocessed the image data. 
-..
-As a first step, I decided to convert the images to grayscale because the color of the image doesn’t matter for traffic sign.
 
+As a first step, I decided to convert the images to grayscale by using inner product between the 3 color values on each pixel and (0.299, 0.587, 0.114because the color of the image doesn’t matter for traffic sign.
 Here is an example of a traffic sign image before and after grayscaling.
 
 ![alt text][image2]
 
 As a last step, I normalized the image data by the function 0.1 + ((img - 0) * (0.9-0.1) / (255-0), because I need to arrange the input values as the similar level, which will affect to the entire learning rate of my network.
 
-I did not decide to generate additional data because it is likely that I can get better result by adding some dat which is tranformed considering the translation invariance, however, I tried  
-
-To add more data to the the data set, I used the following techniques because I need more variety of images for the same labels.
-
-Here is an example of an original image and an augmented image:
-
-![alt text][image3]
-
-The difference between the original data set and the augmented data set is the following ... 
+I did not decide to generate additional data because it is likely that I can get better result by adding some data which is tranformed by such as rotating images, considering the translation invariance, however, I found I succeeded to achieve more than 93% validation accuracy when I tried some iteration for customizing and checking accuracy on the model architecture and parameters.  
 
 
 ####2. Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
