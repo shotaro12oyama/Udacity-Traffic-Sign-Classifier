@@ -94,9 +94,9 @@ Also, I set epochs as 20, Batch_size as 128, and learning rate as 0.002, after t
 ####4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93.
 
 My final model results were:
-* training set accuracy of 0.997
-* validation set accuracy of 0.946
-* test set accuracy of 0.928
+* training set accuracy of 0.995
+* validation set accuracy of 0.962
+* test set accuracy of 0.938
 
 If an iterative approach was chosen:
 * What was the first architecture that was tried and why was it chosen?
@@ -123,6 +123,8 @@ Here are five German traffic signs that I found on the web:
 ![alt text][image7] ![alt text][image8]
 
 The first image might be difficult to classify because ...
+It can be said that the Predictions uncertainty was nearly inexistent as is shown in the table above and graphs below. Looking at the Top-5 Prediction, it can be seeming that their probabilities were very high in all cases. Nonetheless, it is notable that the model mistakenly selected a “Turn left ahead” sign when a “Speed limit “30km/h” was given. This is a False Positive in the Confusion Matrix.
+
 
 ####2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
@@ -130,7 +132,7 @@ Here are the results of the prediction:
 
 | Image			        |     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| Stop Sign      		| Stop sign   									| 
+| Turn right ahead      		| Stop sign   									| 
 | U-turn     			| U-turn 										|
 | Yield					| Yield											|
 | 100 km/h	      		| Bumpy Road					 				|
