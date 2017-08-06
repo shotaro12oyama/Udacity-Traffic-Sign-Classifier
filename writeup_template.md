@@ -86,9 +86,9 @@ Also, I set epochs as 20, Batch_size as 128, and learning rate as 0.002, after t
 ####4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93.
 
 My final model results were:
-* training set accuracy of 0.995
-* validation set accuracy of 0.962
-* test set accuracy of 0.938
+* training set accuracy of 0.997
+* validation set accuracy of 0.958
+* test set accuracy of 0.940
 
 If an iterative approach was chosen:
 * At the beginning, I used Lenet-5 model.
@@ -123,9 +123,9 @@ Here are the results of the prediction:
 |:---------------------:|:---------------------------------------------:| 
 | 33 Turn right ahead      		| 25 Road Work		  									| 
 | 22 Bumpy Road     			| 29 Bicycles crossing 										|
-| 28	Children crossing				| 28 Children crossing											|
 | 25	Road Work      		| 25 Road Work						 				|
-| 27	Pedestrians		| 27 Pedestrians      							|
+| 27	Pedestrians				| 27	Pedestrians											|
+| 28	Children crossing		| 28	Children crossing    							|
 
 
 The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. This compares favorably to the accuracy on the test set of 93.8%.
