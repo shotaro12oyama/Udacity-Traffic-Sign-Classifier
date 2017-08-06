@@ -112,23 +112,21 @@ Here are five German traffic signs that I found on the web:
 The first and second images look easy to classify because there is the sign only in the picture with good contrast.
 The third to fifth are comparatively difficult because they include some noise, such as including backround image, masking and so on.
 
-It can be said that the Predictions uncertainty was nearly inexistent as is shown in the table above and graphs below. Looking at the Top-5 Prediction, it can be seeming that their probabilities were very high in all cases. Nonetheless, it is notable that the model mistakenly selected a “Turn left ahead” sign when a “Speed limit “30km/h” was given. This is a False Positive in the Confusion Matrix.
-
-
 ####2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
 Here are the results of the prediction:
 
 | Image			        |     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| 33 Turn right ahead      		| 25 Road Work		  									| 
-| 22 Bumpy Road     			| 29 Bicycles crossing 										|
-| 25	Road Work      		| 25 Road Work						 				|
+| 33 Turn right ahead      		| 33 Turn right ahead	  									| 
+| 22 Bumpy Road     			| 22 Bumpy Road 									|
+| 25	Road Work      		| 22 Bumpy Road 					 				|
 | 27	Pedestrians				| 27	Pedestrians											|
-| 28	Children crossing		| 28	Children crossing    							|
+| 28	Children crossing		| 20 Dangerous curve to the right    							|
 
 
-The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. This compares favorably to the accuracy on the test set of 93.8%.
+The model was able to correctly guess 3 of the 5 traffic signs, which gives an accuracy of 60%. This result is a little bit dissapointing, comparing to the test accuracy 94%. The test data for Image labels (No.20-35) are comparatively smaller set than other NO.s. I think this short of data set is one of cause this situation.    
+
 
 ####3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
@@ -138,11 +136,11 @@ For the first image, the model is relatively sure that this is a stop sign (prob
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| .99         			| Stop sign   									| 
-| .20     				| U-turn 										|
-| .05					| Yield											|
-| .04	      			| Bumpy Road					 				|
-| .01				    | Slippery Road      							|
+| .99         			| 33 Turn right ahead									| 
+| .99     				| 22 Bumpy Road 										|
+| .99					| 22 Bumpy Road											|
+| .99	      			| 	27	Pedestrians			 				|
+| .85				    | 20 Dangerous curve to the right      							|
 
 
 For the second image ... 
