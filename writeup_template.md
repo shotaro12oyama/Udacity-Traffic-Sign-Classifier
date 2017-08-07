@@ -135,8 +135,6 @@ For the first to fourth mage, the model predict specific signis, in other words 
 The top five soft max probabilities were as follows. I also made bar chart on the Ipython notebook.
 
 For the first image ...
-
-
 | Image			       |     Prediction	         					| 
 |:---------------------:|:---------------------------------------------:| 
 | 33 Turn right ahead      		| 0.99  									| 
@@ -146,14 +144,36 @@ For the first image ...
 | 1	Speed limit (30km/h)		| 0    							|
 
 For the second image ... 
-| Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| .85				    | 20 Dangerous curve to the right      							|
-| .85				    | 20 Dangerous curve to the right      							|
-| .85				    | 20 Dangerous curve to the right      							|
-| .85				    | 20 Dangerous curve to the right      							|
+| 22 Bumpy Road       		| 0.99  									| 
+| 3 Speed limit (60km/h)     			| 4.1e-04 	 								|
+| 31 Wild animals crossing     		| 5.4e-05 					 				 |
+| 20	Dangerous curve to the right			| 1.2e-07		 									|
+| 29	Bicycles crossing		| 1.4e-08    							|
 
+For the third image ...
+|:---------------------:|:---------------------------------------------:| 
+| 22 Bumpy Roadd      		| 0.99  									| 
+| 25 Road work    			| 1.2e-04 	 								|
+| 29	Bicycles crossing     		| 2.1e-11 					 				 |
+| 20	Dangerous curve to the right			| 7.8e-14		 									|
+| 24	Road narrows on the right		| 5.4e-14    							|
 
+For the forth image ...
+|:---------------------:|:---------------------------------------------:| 
+| 27	Pedestrians      		| 0.99  									| 
+| 11 Right-of-way at the next intersection     			| 2.4e-07 	 								|
+| 18 Yield     		| 1.2e-10 					 				 |
+| 1	Speed limit (30km/h)			| 2.8e-14		 									|
+| 30	Beware of ice/snow		| 5.8e-17    							|
+
+For the fifth image ...
+|:---------------------:|:---------------------------------------------:| 
+| 20 Dangerous curve to the right      		| 0.99  									| 
+| 39 Keep left     			| 2.4e-09 	 								|
+| 11 Right-of-way at the next intersection     		| 7.9 	e-12				 				 |
+| 29	Bicycles crossing			| 3.3e-12		 									|
+| 25	Road work		| 8.1e-13    							|
 
 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
