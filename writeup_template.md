@@ -135,23 +135,30 @@ For the first to fourth mage, the model predict specific signis, in other words 
 The top five soft max probabilities were as follows. I also made bar chart on the Ipython notebook.
 
 For the first image ...
-| Image			       |     Prediction	         					| 
-|:---------------------:|:---------------------------------------------:| 
-| 33 Turn right ahead      		| 0.99  									| 
-| 39 Keep left     			| 8.2e-32 	 								|
-| 13 Yield     		| 8.9e-38 					 				 |
-| 0	Speed limit (20km/h)			| 0		 									|
-| 1	Speed limit (30km/h)		| 0    							|
+
+| Image			                |     Prediction	         					| 
+|-------------------------|------------------------------| 
+| 33 Turn right ahead     | 0.99                									| 
+| 39 Keep left     			    | 8.2e-32 	 								           |
+| 13 Yield          		    | 8.9e-38 	          				 				 |
+| 0	Speed limit (20km/h)		| 0                            |
+| 1	Speed limit (30km/h)		| 0                            |
+
+
 
 For the second image ... 
-|:---------------------:|:---------------------------------------------:| 
-| 22 Bumpy Road       		| 0.99  									| 
-| 3 Speed limit (60km/h)     			| 4.1e-04 	 								|
-| 31 Wild animals crossing     		| 5.4e-05 					 				 |
+
+| Image			                          |     Prediction					| 
+|-----------------------------------|--------------------| 
+| 22 Bumpy Road         	          	| 0.99      									| 
+| 3 Speed limit (60km/h)     			    | 4.1e-04  	 								|
+| 31 Wild animals crossing     		   | 5.4e-05 					 				 |
 | 20	Dangerous curve to the right			| 1.2e-07		 									|
-| 29	Bicycles crossing		| 1.4e-08    							|
+| 29	Bicycles crossing		            | 1.4e-08     							|
 
 For the third image ...
+
+| Image			                          |     Prediction					| 
 |:---------------------:|:---------------------------------------------:| 
 | 22 Bumpy Roadd      		| 0.99  									| 
 | 25 Road work    			| 1.2e-04 	 								|
@@ -160,6 +167,8 @@ For the third image ...
 | 24	Road narrows on the right		| 5.4e-14    							|
 
 For the forth image ...
+
+| Image			                          |     Prediction					| 
 |:---------------------:|:---------------------------------------------:| 
 | 27	Pedestrians      		| 0.99  									| 
 | 11 Right-of-way at the next intersection     			| 2.4e-07 	 								|
@@ -168,10 +177,12 @@ For the forth image ...
 | 30	Beware of ice/snow		| 5.8e-17    							|
 
 For the fifth image ...
+
+| Image			                          |     Prediction					| 
 |:---------------------:|:---------------------------------------------:| 
 | 20 Dangerous curve to the right      		| 0.99  									| 
 | 39 Keep left     			| 2.4e-09 	 								|
-| 11 Right-of-way at the next intersection     		| 7.9 	e-12				 				 |
+| 11 Right-of-way at the next intersection     		| 7.9e-12				 				 |
 | 29	Bicycles crossing			| 3.3e-12		 									|
 | 25	Road work		| 8.1e-13    							|
 
