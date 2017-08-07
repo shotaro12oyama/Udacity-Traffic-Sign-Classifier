@@ -134,12 +134,13 @@ The model was able to correctly guess 3 of the 5 traffic signs, which gives an a
 For the first to fourth mage, the model predict specific signis, in other words its probabilities more than 99%. 
 The top five soft max probabilities were as follows. I also made bar chart on the Ipython notebook.
 
-| Image | Probability         	|     Prediction	        					| 
-|:---------------------:|:---------------------------------------------:| 
-| 33 Turn right ahead |.99         			| 33 Turn right ahead									| 
-| 22 Bumpy Road  |.99     				| 22 Bumpy Road 										|
-| 25	Road Work.99					| 22 Bumpy Road											|
-| 28	Children crossing.99	      			| 	27	Pedestrians			 				|
+For the first image ...
+| Image                 | Probability         	 |     Prediction	        					                  | 
+|:---------------------:|:---------------------:|:---------------------------------------------:| 
+| 33 Turn right ahead   |.99                 			| 33 Turn right ahead									| 
+| 22 Bumpy Road         |.99     			           	| 22 Bumpy Road 										|
+| 25	Road Work.99					  | 											           |
+| 28	Children crossing  |.99	      			          | 	27	Pedestrians			                        				|
 
 
 For the second image ... 
