@@ -116,7 +116,7 @@ The third to fifth are comparatively difficult because they include some noise, 
 
 Here are the results of the prediction:
 
-| Image			        |     Prediction	        					| 
+| Image			       |     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | 33 Turn right ahead      		| 33 Turn right ahead	  									| 
 | 22 Bumpy Road     			| 22 Bumpy Road 									|
@@ -135,14 +135,13 @@ For the first to fourth mage, the model predict specific signis, in other words 
 The top five soft max probabilities were as follows. I also made bar chart on the Ipython notebook.
 
 For the first image ...
-| Image                 | Probability         	 |     Prediction	        					                  | 
-|:---------------------:|:---------------------:|:---------------------------------------------:| 
-| 33 Turn right ahead   | .99                   | 33 Turn right ahead									                  | 
-| 22 Bumpy Road         | .99     			           | 22 Bumpy Road 							                      			|
-| 25	Road Work.99					  | 											           |                                               |
-| 28	Children crossing  | .99	      			         | 	27	Pedestrians			                        				|
-| 28	Children crossing  | .99	      			         | 	27	Pedestrians			                        				|
-
+| Image			       |     Prediction	        					| 
+|:---------------------:|:---------------------------------------------:| 
+| 33 Turn right ahead      		| 0.99 									| 
+| 39 Keep left     			| 8.2e-32 									|
+| 13 Yield     		| 8.9e-38 					 				|
+| 0	Speed limit (20km/h)			| 0											|
+| 1	Speed limit (30km/h)		| 0   							|
 
 For the second image ... 
 | Probability         	|     Prediction	        					| 
