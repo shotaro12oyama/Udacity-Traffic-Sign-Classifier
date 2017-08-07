@@ -137,10 +137,11 @@ The top five soft max probabilities were as follows. I also made bar chart on th
 For the first image ...
 | Image                 | Probability         	 |     Prediction	        					                  | 
 |:---------------------:|:---------------------:|:---------------------------------------------:| 
-| 33 Turn right ahead   |.99                 			| 33 Turn right ahead									| 
-| 22 Bumpy Road         |.99     			           	| 22 Bumpy Road 										|
-| 25	Road Work.99					  | 											           |
-| 28	Children crossing  |.99	      			          | 	27	Pedestrians			                        				|
+| 33 Turn right ahead   | .99                   | 33 Turn right ahead									                  | 
+| 22 Bumpy Road         | .99     			           | 22 Bumpy Road 							                      			|
+| 25	Road Work.99					  | 											           |                                               |
+| 28	Children crossing  | .99	      			         | 	27	Pedestrians			                        				|
+| 28	Children crossing  | .99	      			         | 	27	Pedestrians			                        				|
 
 
 For the second image ... 
