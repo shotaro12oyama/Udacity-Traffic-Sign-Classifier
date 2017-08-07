@@ -135,13 +135,15 @@ For the first to fourth mage, the model predict specific signis, in other words 
 The top five soft max probabilities were as follows. I also made bar chart on the Ipython notebook.
 
 For the first image ...
-| Image			       |     Prediction	        					| 
+
+
+| Image			       |     Prediction	         					| 
 |:---------------------:|:---------------------------------------------:| 
-| 33 Turn right ahead      		| 0.99 									| 
-| 39 Keep left     			| 8.2e-32 									|
-| 13 Yield     		| 8.9e-38 					 				|
-| 0	Speed limit (20km/h)			| 0											|
-| 1	Speed limit (30km/h)		| 0   							|
+| 33 Turn right ahead      		| 0.99  									| 
+| 39 Keep left     			| 8.2e-32 	 								|
+| 13 Yield     		| 8.9e-38 					 				 |
+| 0	Speed limit (20km/h)			| 0		 									|
+| 1	Speed limit (30km/h)		| 0    							|
 
 For the second image ... 
 | Probability         	|     Prediction	        					| 
